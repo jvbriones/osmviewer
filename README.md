@@ -9,9 +9,7 @@ More info at http://creativecommons.org/licenses/by-nc/3.0/
 
 ## Instructions
 
-You can download (via http protocol according to the OSM conventions) the geographic area of the world as tiles: bitmap with quadratic size of 256 x 256 pixels.
-For a given geographic coordinate (longitude, latitude) and a certain zoom level, the relevant map tile can be calculated mathematically
-see: http://wiki.openstreetmap.org/wiki/Slippy_map_tilenames for further information.
+Just generate the .apk and install it in your Android device.
 
 How the app works?
 
@@ -21,6 +19,10 @@ How the app works?
 - Downloads the required tiles via http according to the OSM conventions 
 - Composes map view, centering the map around the current position (for the “Follow Me” map view mode)
 - Refreshes the map view if the position of mobile user changes or the map view has been scrolled
+
+You can download (via http protocol according to the OSM conventions) the geographic area of the world as tiles: bitmap with quadratic size of 256 x 256 pixels.
+For a given geographic coordinate (longitude, latitude) and a certain zoom level, the relevant map tile can be calculated mathematically
+see: http://wiki.openstreetmap.org/wiki/Slippy_map_tilenames for further information.
 
 The Threadpool is for downloading the map tiles and to avoid blocking http calls.
 Prefetch the most probable required tiles in the near future and cache the already downloaded tiles on local device.
