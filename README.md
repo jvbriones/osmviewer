@@ -4,8 +4,8 @@ This app is just a viewer demo of these open maps for Android.
 
 ## License
 
-This project is released under the Creative Commons Attribution 3.0 Unported (CC BY 3.0) License.
-More info at http://creativecommons.org/licenses/by/3.0/
+This project is released under the Creative Commons Attribution-NonCommercial 3.0 Unported (CC BY-NC 3.0) License.
+More info at http://creativecommons.org/licenses/by-nc/3.0/
 
 ## Instructions
 
@@ -35,5 +35,5 @@ Permissions:
 - Network communication (Internet)
 
 ## Contributors
-Started by Javier Briones, Saqib Hanif and Julia Amaya
-[Javier Briones](https://github.com/jvbriones)
+Started by [Javier Briones](https://github.com/jvbriones), Saqib Hanif and Julia Amaya
+
